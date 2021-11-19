@@ -4,9 +4,13 @@
     box-sizing: border-box;
 }
 
-img{
-    width: 60px;
-    height: 50px;
+.container-fluid-antras{
+    height: 100vh;
+}
+
+
+.kate{
+    object-fit: cover;
 }
 
 .flexas{
@@ -14,4 +18,10 @@ img{
     flex-wrap: wrap;
 }
 
+.carusel-item img{
+    object-fit: cover;
+    object-position: center;
+    height: 20em;
+    overflow: hidden;
+}
 
